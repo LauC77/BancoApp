@@ -1,3 +1,4 @@
+package banco;
 import java.util.ArrayList;
 
 public class Banco {
@@ -50,7 +51,7 @@ public boolean retirarCajero(int numeroCuenta, double monto, boolean cajeroPropi
 
     public void cierreDeMes() {
         for (Cuenta cuenta : cuentas) {
-            cuenta.aplicarCargosMensuales();
+            cuenta.aplicarCargoMensual();
             cuenta.mostrarEstadoCuenta();
         }
     }
