@@ -1,0 +1,5 @@
+# Ignorar archivos de construcción generados automáticamente
+/build/
+/nbproject/
+*.class
+ 
